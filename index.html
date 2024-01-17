@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="vitapro.png" alt="Vitapro Logo" height="30">
+        <h2 style="font-size: 18px;">Ingrese su contraseña</h2>
+        <div class="input-container">
+            <input type="email" id="email" placeholder="Correo Electrónico">
+        </div>
+        <div class="input-container">
+            <input type="password" id="password" placeholder="Contraseña">
+        </div>
+        <button onclick="checkPassword()">Ingresar</button>
+    </div>
+
+    <div class="dashboard-links" id="dashboardLinksContainer">
+        <!-- Agrega más enlaces según sea necesario -->
+        <!--<a class="dashboard-link" href="enlace_dashboard_1"></a>--> 
+        <!-- Agrega más enlaces según sea necesario -->
+    </div>
+    
+    <!-- <img id="img_1" src="C:\Users\bdonayred\OneDrive - Grupo Alicorp (1)\Datasets Utiles\12. Python\Apps\imagen_1.jpg" alt="Imagen 1" class="hidden-image">--> 
+    <!-- <img src="imagen_1.png" alt="Descripción de la imagen" width="300" height="200" class="hidden-image" id="dashboardImage">--> 
+
+    <div class="image-container">
+        <img src="imagen_1.png" alt="Descripción de la imagen" width="150" height="100" class="hidden-image" id="dashboardImage">
+    </div>
+
+    <style>
+        .dashboard-links {
+            width: 150px; /* Ancho del botón igual al ancho de la imagen */
+            text-align: center; /* Alinea el contenido en el centro */
+        }
+    </style>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+

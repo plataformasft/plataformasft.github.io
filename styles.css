@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('fondo_1.jpg') center/cover no-repeat; /* Ajusta la ruta y el tamaño de la imagen */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000; /* Color del texto para asegurar que sea legible en el fondo blanco */
+
+    /* Estilos para centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.dashboard-link {
+    width: 150px; /* Establece el ancho igual al de la imagen */
+    border: 2px solid white;
+    border-radius: 8px; /* Opcional: Añade bordes redondeados */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    color: #000; /* Color del texto para asegurar que sea legible en el fondo blanco */
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.dashboard-link:hover {
+    background-color: #229bf1;
+    color: #fff;
+}
+
+.hidden-image {
+    display: none;
+}
+
+#dashboardImage {
+    width: 300px;
+    height: 200px;
+}
+
+.image-container {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+}
+
+
+
+
+
+/*.dashboard-link-active {
+/*   background-color: #fff;
+/*    border-radius: 8px; /* Opcional: Añade bordes redondeados */
+/*    color: red; /* Cambia el color del texto según tus preferencias */
+/*}
+
+
+
+
+
+
+
+
+
+
+
