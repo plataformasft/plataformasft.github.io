@@ -9,6 +9,7 @@ const users = [
     {email: "wllerenaa@vitapro.com.pe", password:"Marianita109"},
     {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024"},
     {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024"},
+    {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499"},
     
 
     // Agrega más usuarios según sea necesario
