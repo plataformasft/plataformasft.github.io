@@ -4,12 +4,16 @@ const users = [
     { email: "kmendezs@vitapro.com.ec", password: "Mendez2024" , name: "Kristel Mendez"},
     { email: "rperedas@vitapro.com.pe", password: "Pereda2024" , name: "Roy Pereda"},
     { email: "rzevillanoso@vitapro.com.pe", password: "Vita2024", name: "Rene Zevillanos"},
+    {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499", name: "Nicol Palacios"},
+    
+
+    // Listado Nutricion/finanzas
     {email: "jmolinam@vitapro.com.pe", password: "Paloma@1983", name: "Jesus Molina"},
-    {email: "agarciagodoc@vitapro.com.pe", password:"Paloma@3611", name: "A. Garcia"},
+    {email: "agarciagodoc@vitapro.com.pe", password:"Paloma@3611", name: "Angelica Garcia"},
     {email: "wllerenaa@vitapro.com.pe", password:"Marianita109", name: "Wilhem Llerena"},
-    {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024", name: "M. Mancero"},
-    {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024", name: "R. Camacho"},
-    {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499", name: "R. Palacios"},
+    {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024", name: "Miriam Mancero"},
+    {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024", name: "Roberto Josef Camacho"},
+    
     // Listado de Rene para gerencia
     {email: "yparrag@vitapro.com.ec", password:"Parra2024", name: "Yanelly Parra"},
     {email: "cmarina@vitapro.com.ec", password:"Marin2024", name: "Andrés Marín"},
