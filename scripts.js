@@ -16,18 +16,42 @@ const users = [
 ];
 
 function checkPassword() {
-  const enteredEmail = document.getElementById("email").value;
-  const enteredPassword = document.getElementById("password").value;
+    const enteredEmail = document.getElementById("email").value;
+    const enteredPassword = document.getElementById("password").value;
+
+    const allowedEmails = [ "bdonayred@vitapro.com.pe", "kmendezs@vitapro.com.ec"]; // Correos permitidos para mostrar el div
 
     const user = users.find(u => u.email === enteredEmail && u.password === enteredPassword);
 
-   if (user) {
+    if (user) {
+        // Verificar si el correo electrónico está en la lista de correos permitidos
+        if (allowedEmails.includes(enteredEmail)) {
+            // Mostrar el div "Atributo_prod - AT"
+            document.getElementById("atributoProdAT").style.display = "block";
+            // Ocultar los botones
+            document.getElementById("dashboardLinksContainer").style.display = "none";
+            // Mostrar el nombre del usuario
+            document.getElementById("username").style.display = "inline";
+            document.getElementById("username").innerText = "Hola, " + user.name;
+        } else {
+            // Ocultar el div "Atributo_prod - AT" si el correo electrónico no está permitido
+            document.getElementById("atributoProdAT").style.display = "none";
+            // Mostrar el nombre del usuario
+            const usernameElement = document.getElementById("username");
+            document.getElementById("username").style.display = "inline";
+            document.getElementById("username").innerText = "Hola, " + user.name;
+        }
+
+        // Mostrar el nombre del usuario
+        document.getElementById("username").innerText = "Hola, " + user.name;
+
         showDashboards();
         showImage();
     } else {
         alert("Credenciales incorrectas. Intenta de nuevo.");
     }
 }
+
 
 
 function showDashboards() {
