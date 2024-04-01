@@ -1,15 +1,15 @@
 const users = [
-    { email: "plataformas@vitapro.com.pe", password: "Lima2022" },
-    { email: "bdonayred@vitapro.com.pe", password: "980733753" },
-    { email: "kmendezs@vitapro.com.ec", password: "Lima2024" },
-    { email: "rperedas@vitapro.com.pe", password: "Lima2024" },
-    { email: "rzevillanoso@vitapro.com.pe", password: "Vita2024"},
-    {email: "jmolinam@vitapro.com.pe", password: "Paloma@1983"},
-    {email: "agarciagodoc@vitapro.com.pe", password:"Paloma@3611"},
-    {email: "wllerenaa@vitapro.com.pe", password:"Marianita109"},
-    {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024"},
-    {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024"},
-    {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499"},
+    { email: "plataformas@vitapro.com.pe", password: "Lima2022" , name: "Plataformas"},
+    { email: "bdonayred@vitapro.com.pe", password: "980733753" , name: "Bruno Donayre"},
+    { email: "kmendezs@vitapro.com.ec", password: "Lima2024" , name: "Kristel Mendez"},
+    { email: "rperedas@vitapro.com.pe", password: "Lima2024" , name: "Roy Pereda"},
+    { email: "rzevillanoso@vitapro.com.pe", password: "Vita2024", name: "Roy Pereda"},
+    {email: "jmolinam@vitapro.com.pe", password: "Paloma@1983", name: "Roy Pereda"},
+    {email: "agarciagodoc@vitapro.com.pe", password:"Paloma@3611", name: "A. Garcia"},
+    {email: "wllerenaa@vitapro.com.pe", password:"Marianita109", name: "Wilhem Llerena"},
+    {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024", name: "M. Mancero"},
+    {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024", name: "R. Camacho"},
+    {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499", name: "R. Palacios"},
     
 
     // Agrega más usuarios según sea necesario
