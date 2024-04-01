@@ -10,7 +10,7 @@ const users = [
     {email: "mmanceroe@inbalnor.com.ec", password:"Vitapro2024", name: "M. Mancero"},
     {email: "rcamachoc@vitapro.com.hn", password:"Vitapro2024", name: "R. Camacho"},
     {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499", name: "R. Palacios"},
-    // Listado de Rene
+    // Listado de Rene para gerencia
     {email: "yparrag@vitapro.com.ec", password:"Lima2024", name: "Yanelly Parra"},
     {email: "cmarina@vitapro.com.ec", password:"Lima2024", name: "Andrés Marín"},
     {email: "mnovillon@vitapro.com.pe", password:"Lima2024", name: "Manuel Novillo"},
@@ -46,6 +46,33 @@ const users = [
     {email: "cquispeb@vitapro.com.ec", password:"Lima2024", name: "Carlos Quispe"},
     {email: "bboadam@vitapro.com.ec", password:"Lima2024", name: "Susana Boada"},
 
+    // Listado de Rene para Asesores tecnicos de campo: acotado
+    {email: "ajaraa@vitapro.com.ec", password:"Lima2024", name: "Adrian Jara"},
+    {email: "apazminof@vitapro.com.ec", password:"Lima2024", name: "Andres Pazmiño"},
+    {email: "ccrespop@vitapro.com.ec", password:"Lima2024", name: "Carlos Crespo"},
+    {email: "czambranoe@vitapro.com.ec", password:"Lima2024", name: "Carlos Zambrano"},
+    {email: "cpolitc@vitapro.com.ec", password:"Lima2024", name: "Carol Polit"},
+    {email: "cmonterol@vitapro.com.ec", password:"Lima2024", name: "Cristhian Montero"},
+    {email: "ecelip@vitapro.com.ec", password:"Lima2024", name: "Elvis Celi"},
+    {email: "fgonzalezd@vitapro.com.ec", password:"Lima2024", name: "Fernando Gonzalez"},
+    {email: "fpluasd@vitapro.com.ec", password:"Lima2024", name: "Freddy Pluas"},
+    {email: "hdavalosf@vitapro.com.ec", password:"Lima2024", name: "Hugo Davalos"},
+    {email: "ivintimillau@vitapro.com.ec", password:"Lima2024", name: "Israel Vintimilla"},
+    {email: "jmorap@vitapro.com.ec", password:"Lima2024", name: "Jorge Mora"},
+    {email: "jgarcesm@vitapro.com.ec", password:"Lima2024", name: "Juan José Garces"},
+    {email: "kjucag@vitapro.com.ec", password:"Lima2024", name: "Karla Juca"},
+    {email: "kmoranteb@vitapro.com.ec", password:"Lima2024", name: "Katherine Morante"},
+    {email: "kverap@vitapro.com.ec", password:"Lima2024", name: "Kiara Vera"},
+    {email: "kquimisp@vitapro.com.ec", password:"Lima2024", name: "Klever Quimi"},
+    {email: "lsalazarco@vitapro.com.ec", password:"Lima2024", name: "Luis Salazar"},
+    {email: "obajanaf@vitapro.com.ec", password:"Lima2024", name: "Omar Bajaña"},
+    {email: "pmedinar@vitapro.com.ec", password:"Lima2024", name: "Paul Medina"},
+    {email: "rmindad@vitapro.com.ec", password:"Lima2024", name: "Rolando Minda"},
+    {email: "rerazoq@vitapro.com.ec", password:"Lima2024", name: "Rosa Erazo"},
+    {email: "wsanchezj@vitapro.com.ec", password:"Lima2024", name: "Wendy Sanchez"},
+    {email: "wriverai@vitapro.com.ec", password:"Lima2024", name: "William Rivera"},
+
+
 
     // Agrega más usuarios según sea necesario
 ];
@@ -54,7 +81,33 @@ function checkPassword() {
     const enteredEmail = document.getElementById("email").value;
     const enteredPassword = document.getElementById("password").value;
 
-    const allowedEmails = [ "bdonayred@vitapro.com.pe", "kmendezs@vitapro.com.ec"]; // Correos permitidos para mostrar el div
+    const allowedEmails = [ "bdonayred@vitapro.com.pe",
+                            "ajaraa@vitapro.com.ec",
+                            "apazminof@vitapro.com.ec",
+                            "ccrespop@vitapro.com.ec",
+                            "czambranoe@vitapro.com.ec",
+                            "cpolitc@vitapro.com.ec",
+                            "cmonterol@vitapro.com.ec",
+                            "ecelip@vitapro.com.ec",
+                            "fgonzalezd@vitapro.com.ec",
+                            "fpluasd@vitapro.com.ec",
+                            "hdavalosf@vitapro.com.ec",
+                            "ivintimillau@vitapro.com.ec",
+                            "jmorap@vitapro.com.ec",
+                            "jgarcesm@vitapro.com.ec",
+                            "kjucag@vitapro.com.ec",
+                            "kmoranteb@vitapro.com.ec",
+                            "kverap@vitapro.com.ec",
+                            "kquimisp@vitapro.com.ec",
+                            "lsalazarco@vitapro.com.ec",
+                            "obajanaf@vitapro.com.ec",
+                            "pmedinar@vitapro.com.ec",
+                            "rmindad@vitapro.com.ec",
+                            "rerazoq@vitapro.com.ec",
+                            "wsanchezj@vitapro.com.ec",
+                            "wriverai@vitapro.com.ec"
+
+                          ]; // Correos permitidos para mostrar el div
 
     const user = users.find(u => u.email === enteredEmail && u.password === enteredPassword);
 
