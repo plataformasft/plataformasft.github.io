@@ -20,9 +20,14 @@
         <button onclick="checkPassword()">Ingresar</button>
     </div>
 
-    <div style="margin-bottom: 20px;"></div> <!-- Espacio entre los enlaces y el informe -->
+    <div style="margin-bottom: 20px;">
+    
+
+    
+    </div> <!-- Espacio entre los enlaces y el informe -->
 
     <div class="dashboard-links" id="dashboardLinksContainer">
+
         <!-- Agrega más enlaces según sea necesario -->
         <!--<a class="dashboard-link" href="enlace_dashboard_1"></a>--> 
         <!-- Agrega más enlaces según sea necesario -->
@@ -47,6 +52,18 @@
     <!--    src="https://app.powerbi.com/reportEmbed?reportId=78ebfa70-02e9-4d05-b781-9f3cdf66ce9d&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" -->
     <!--    frameborder="0" allowfullscreen="true" class="hidden-image" id="dashboardImage"></iframe>-->
     <!--    </div>-->
+
+    <div id="atributoProdAT" style="display: none;">
+        <!-- Título del iframe -->
+        <div id="container">
+            <h2 style="color: white;">Dashboard de AT</h2>
+                    <!-- Nombre del usuario -->
+            <span id="username" class="username">Nombre de usuario:</span>
+
+        </div>
+        <!-- Contenido que se mostrará si se inicia sesión con cierto correo -->
+        <iframe title="Atributo_prod - AT" width="1600" height="1600" src="https://app.powerbi.com/reportEmbed?reportId=78ebfa70-02e9-4d05-b781-9f3cdf66ce9d&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" frameborder="0" allowfullscreen="true" class="hidden-image" id="dashboardImage"></iframe>
+    </div>
 
     <style>
         .dashboard-links {
