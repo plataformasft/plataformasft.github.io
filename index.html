@@ -20,7 +20,7 @@
         <button onclick="checkPassword()">Ingresar</button>
     </div>
 
-    <div style="margin-bottom: 20px;">
+    <div style="margin-bottom: 8px;">
     
 
     
@@ -33,37 +33,38 @@
         <!-- Agrega más enlaces según sea necesario -->
     </div>
 
+    <!-- Espacio entre los enlaces y el informe -->
+    <div style="margin-bottom: 20px;"></div> 
 
-
-    <div style="margin-bottom: 20px;"></div> <!-- Espacio entre los enlaces y el informe -->
-
-
-    <!-- <img id="img_1" src="C:\Users\bdonayred\OneDrive - Grupo Alicorp (1)\Datasets Utiles\12. Python\Apps\imagen_1.jpg" alt="Imagen 1" class="hidden-image">--> 
-    <!-- <img src="imagen_1.png" alt="Descripción de la imagen" width="300" height="200" class="hidden-image" id="dashboardImage">--> 
-
-    <!-- <div class="image-container">-->
-    <!--     <img src="imagen_1.png" alt="Descripción de la imagen" width="150" height="100" class="hidden-image" id="dashboardImage">-->
-    <!-- </div>-->
-
-
-    <!--<div style="text-align: center;">--> <!-- Contenido que se mostrará si se inicia sesión con cierto correo.-->
-
-    <!--    <iframe title="Atributo_prod - AT" width="1600" height="1600" -->
-    <!--    src="https://app.powerbi.com/reportEmbed?reportId=78ebfa70-02e9-4d05-b781-9f3cdf66ce9d&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" -->
-    <!--    frameborder="0" allowfullscreen="true" class="hidden-image" id="dashboardImage"></iframe>-->
-    <!--    </div>-->
-
+    <!-- Enmarcado atributoProdAT-->
     <div id="atributoProdAT" style="display: none;">
         <!-- Título del iframe -->
-        <div id="container">
+        <div id="containerAT">
             <h2 style="color: white;">Dashboard de Asesoría Técnica</h2>
-                    <!-- Nombre del usuario -->
-            <span id="username" class="username">Nombre de usuario:</span>
-
+            <!-- Nombre del usuario -->
+            <span id="usernameAT" class="username">Nombre de usuario:</span>
         </div>
         <!-- Contenido que se mostrará si se inicia sesión con cierto correo -->
-        <iframe title="Atributo_prod - AT" width="1600" height="1600" src="https://app.powerbi.com/reportEmbed?reportId=78ebfa70-02e9-4d05-b781-9f3cdf66ce9d&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" frameborder="0" allowfullscreen="true" class="hidden-image" id="dashboardImage"></iframe>
+        <iframe title="Atributo_prod - AT" width="1600" height="1600" 
+        src="https://app.powerbi.com/reportEmbed?reportId=78ebfa70-02e9-4d05-b781-9f3cdf66ce9d&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" 
+        frameborder="0" allowfullscreen="true" class="hidden-image" id="dashboardImageAT"></iframe>
     </div>
+
+    <!-- Enmarcado gestionAT-->
+    <div id="gestionAT" style="display: none;">
+        <!-- Título del iframe -->
+        <div id="containerGestionAT">
+            <h2 style="color: white;">Gestión de Asesoría Técnica</h2>
+            <!-- Nombre del usuario -->
+            <span id="usernameGestionAT" class="username">Nombre de usuario:</span>
+        </div>
+        <!-- Contenido que se mostrará si se inicia sesión con cierto correo -->
+        <iframe title="Atributo_prod" width="1600" height="1600" 
+        src="https://app.powerbi.com/reportEmbed?reportId=a7d43b8c-b9a5-4599-827d-e86b497553f4&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996" 
+        frameborder="0" allowFullScreen="true"class="hidden-image" id="dashboardImageGestionAT"></iframe>
+    </div>
+
+
 
     <style>
         .dashboard-links {
@@ -75,6 +76,7 @@
     <script src="scripts.js"></script>
 </body>
 </html>
+
 
 
 
