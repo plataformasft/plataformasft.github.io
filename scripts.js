@@ -5,6 +5,9 @@ const users = [
     { email: "rperedas@vitapro.com.pe", password: "Pereda2024" , name: "Roy Pereda"},
     { email: "rzevillanoso@vitapro.com.pe", password: "Vita2024", name: "Rene Zevillanos"},
     {email: "rpalaciosj@vitapro.com.ec", password:"Nico2499", name: "Nicol Palacios"},
+    {email: "gerenciaj@vitapro.com.ec", password:"Lima2024", name: "Gerencia"},
+    {email: "acotadoj@vitapro.com.ec", password:"Lima2024", name: "Acotado"},
+    
     
 
     // Listado Nutricion/finanzas
@@ -84,8 +87,8 @@ const users = [
 function checkPassword() {
     const enteredEmail = document.getElementById("email").value;
     const enteredPassword = document.getElementById("password").value;
-
-    const allowedEmails = [ "bdonayred@vitapro.com.pe",
+    // Correos permitidos para mostrar el div ACOTADO
+    const allowedEmails = [ "acotado@vitapro.com.pe",
                             "ajaraa@vitapro.com.ec",
                             "apazminof@vitapro.com.ec",
                             "ccrespop@vitapro.com.ec",
@@ -111,31 +114,74 @@ function checkPassword() {
                             "wsanchezj@vitapro.com.ec",
                             "wriverai@vitapro.com.ec"
 
-                          ]; // Correos permitidos para mostrar el div
+                          ]; 
+    // Correos permitidos para mostrar el div GERENCIA
+    const allowedEmailsAT  = [ "gerencia@vitapro.com.pe",
+                            "yparrag@vitapro.com.ec",
+                            "cmarina@vitapro.com.ec",
+                            "mnovillon@vitapro.com.ec",
+                            "jtorresor@vitapro.com.ec",
+                            "fhingtonr@vitapro.com.ec",
+                            "gsuarezu@vitapro.com.ec",
+                            "mnunesa@vitapro.com.ec",
+                            "avieirad@vitapro.com.ec",
+                            "jbellop@vitapro.com.ec",
+                            "lveram@vitapro.com.ec",
+                            "jcabreraca@vitapro.com.ec",
+                            "wvargasa@vitapro.com.pe",
+                            "kmendezs@vitapro.com.ec",
+                            "mriveraca@vitapro.com.ec",
+                            "rperedas@vitapro.com.pe",
+                            "bbowlert@vitapro.com.pe",
+                            "erone@vitapro.com.ec",
+                            "jchavezgu@vitapro.com.ec",
+                            "ypradov@vitapro.com.ec",
+                            "rzevillanoso@vitapro.com.pe",
+                            "eariasf@vitapro.com.ec",
+                            "storalh@vitapro.com.ec",
+                            "frodriguess@vitapro.com.ec",
+                            "fvargasel@vitapro.com.ec",
+                            "rquintanav@vitapro.com.ec",
+                            "jmartinezq@vitapro.com.ec",
+                            "jgarciap@vitapro.com.ec",
+                            "rpalaciosj@vitapro.com.ec",
+                            "jlucasb@vitapro.com.ec",
+                            "acooperp@vitapro.com.ec",
+                            "gingermanl@vitapro.com.ec",
+                            "nrodriguezl@vitapro.com.ec",
+                            "aballadareso@vitapro.com.ec",
+                            "avieirad@vitapro.com.ec",
+                            "pmontalbettg@vitapro.com.ec",
+                            "cquispeb@vitapro.com.ec"
+                          ]; 
 
     const user = users.find(u => u.email === enteredEmail && u.password === enteredPassword);
 
     if (user) {
+        let isAllowed = false;
+
         // Verificar si el correo electrónico está en la lista de correos permitidos
         if (allowedEmails.includes(enteredEmail)) {
+            isAllowed = true;
             // Mostrar el div "Atributo_prod - AT"
             document.getElementById("atributoProdAT").style.display = "block";
-            // Ocultar los botones
+            document.getElementById("containerAT").style.display = "block"; // Mostrar el contenedor del título
             document.getElementById("dashboardLinksContainer").style.display = "none";
-            // Mostrar el nombre del usuario
-            document.getElementById("username").style.display = "inline";
-            document.getElementById("username").innerText = "Hola, " + user.name;
-        } else {
-            // Ocultar el div "Atributo_prod - AT" si el correo electrónico no está permitido
-            document.getElementById("atributoProdAT").style.display = "none";
-            // Mostrar el nombre del usuario
-            const usernameElement = document.getElementById("username");
-            document.getElementById("username").style.display = "inline";
-            document.getElementById("username").innerText = "Hola, " + user.name;
+            document.getElementById("usernameAT").innerText = "Hola, " + user.name; // Mostrar el nombre del usuario
+        } else if (allowedEmailsAT.includes(enteredEmail)) {
+            isAllowed = true;
+            // Mostrar el div "Gestión de Asesoría Técnica"
+            document.getElementById("gestionAT").style.display = "block";
+            document.getElementById("containerGestionAT").style.display = "block"; // Mostrar el contenedor del título
+            document.getElementById("dashboardLinksContainer").style.display = "none";
+            document.getElementById("usernameGestionAT").innerText = "Hola, " + user.name; // Mostrar el nombre del usuario
         }
 
-        // Mostrar el nombre del usuario
-        document.getElementById("username").innerText = "Hola, " + user.name;
+        if (!isAllowed) {
+            // Ocultar los divs si el correo electrónico no está permitido
+            document.getElementById("atributoProdAT").style.display = "none";
+            document.getElementById("gestionAT").style.display = "none";
+        }
 
         showDashboards();
         showImage();
@@ -143,6 +189,7 @@ function checkPassword() {
         alert("Credenciales incorrectas. Intenta de nuevo.");
     }
 }
+
 
 
 
@@ -203,4 +250,5 @@ function showImage() {
         img1.style.transform = "scale(01)";
     }
 }
+
 
