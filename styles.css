@@ -68,14 +68,20 @@ button:hover {
     color: #fff;
 }
 
-.hidden-image {
-    display: none;
+/*.hidden-image {*/
+/*    display: none;*/
+/*}*/
+
+#dashboardImageAT {
+    width: 1200px;
+    height: 600px;
 }
 
-#dashboardImage {
-    width: 300px;
-    height: 200px;
+#dashboardImageGestionAT {
+    width: 1200px; /* Ajusta el ancho según sea necesario */
+    height: 600px; /* Ajusta la altura según sea necesario */
 }
+
 
 .image-container {
     margin-top: 20px; /* Ajusta este valor según sea necesario */
@@ -102,6 +108,13 @@ button:hover {
 /*    border-radius: 8px; /* Opcional: Añade bordes redondeados */
 /*    color: red; /* Cambia el color del texto según tus preferencias */
 /*}
+
+
+
+
+
+
+
 
 
 
