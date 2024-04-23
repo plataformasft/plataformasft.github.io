@@ -201,7 +201,7 @@ function showDashboards() {
     const dashboardLinks = [
     { name: "Gestión AT", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=be09ab89-8aa9-4ac7-bc0b-bb6c25587d74&ctid=3b16616d-f174-497a-a1ae-900d85106996" },
     { name: "Nutrición", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=cc78899e-f3e0-476d-aa8d-dd915fbbfdd6&ctid=3b16616d-f174-497a-a1ae-900d85106996" } ,
-        {NAME: "Finanzas", url: "https://app.powerbi.com/reportEmbed?reportId=725ec03a-4472-4a8c-822f-e7263ced61b7&appId=2e41b323-44b8-4a89-a5ed-621a108ffdb6&autoAuth=true&ctid=3b16616d-f174-497a-a1ae-900d85106996"}
+    { name: "Finanzas", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=2e41b323-44b8-4a89-a5ed-621a108ffdb6&ctid=3b16616d-f174-497a-a1ae-900d85106996"}
         
         // Agrega más enlaces según sea necesario
     ];
