@@ -101,6 +101,41 @@ button:hover {
     font-style: italic; /* Aplicar el estilo de cursiva */
 }
 
+/* PONEMOS TARJETAS  DINÁMICAS*/
+.container {
+  width: 100%;
+  width: 820px;
+  height: 340px;
+  display: flex;
+  gap: 100px;
+  margin-inline: 50px;
+}
+
+.card {
+  min-width: 70px;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  position: relative;
+  transition: flex-grow 0.5s ease;
+}
+
+.card:hover {
+  flex-grow: 7;
+}
+
+.card-content .title {
+  margin-left: 100px;
+  transform: translateX(-100%);
+}
+
+.card:hover .title {
+  opacity: 0;
+  transform: translateX(0);
+}
+
 
 
 /*.dashboard-link-active {
