@@ -155,7 +155,7 @@ function checkPassword() {
                             "cquispeb@vitapro.com.ec"
                           ]; 
 
-    const user = users.find(u => u.email === enteredEmail && u.password === enteredPassword);
+    const user = users.find(user => user.email === enteredEmail && user.password === enteredPassword);
 
     if (user) {
         let isAllowed = false;
