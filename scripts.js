@@ -247,9 +247,9 @@ function showImage() {
     
     if (img1) {
         img1.style.display = "block"; // Hace visible la imagen
-        img1.style.width = "1500px"; // Establece el ancho al 100% del contenedor
+        img1.style.width = "1600px"; // Establece el ancho al 100% del contenedor
         //img1.style.height = "541.25px"; // Ajusta la altura automáticamente para mantener la proporción
-        img1.style.height = "541.25px";
+        img1.style.height = "2800px";
         img1.style.transform = "scale(01)";
     }
 }
