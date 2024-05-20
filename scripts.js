@@ -54,6 +54,9 @@ const users = [
     {email: "cquispeb@vitapro.com.ec", password:"Quispe2024", name: "Carlos Quispe"},
     {email: "bboadam@vitapro.com.ec", password:"Boada2024", name: "Susana Boada"},
 
+    //nuevos usuarios para agrupadores gerencia
+    {email: "vsandovala@vitapro.com.pe", password:"Lima2024", name: "Violeta Mercedes Sandoval Altamirano <VSandovalA@vitapro.com.pe"},
+
     // Listado de Rene para Asesores tecnicos de campo: acotado
     {email: "ajaraa@vitapro.com.ec", password:"Jara2024", name: "Adrian Jara"},
     {email: "apazminof@vitapro.com.ec", password:"Pazmiño2024", name: "Andres Pazmiño"},
@@ -152,7 +155,8 @@ function checkPassword() {
                             "aballadareso@vitapro.com.ec",
                             "avieirad@vitapro.com.ec",
                             "pmontalbettg@vitapro.com.ec",
-                            "cquispeb@vitapro.com.ec"
+                            "cquispeb@vitapro.com.ec",
+                            "vsandovala@vitapro.com.pe"
                           ]; 
 
     const user = users.find(user => user.email === enteredEmail && user.password === enteredPassword);
