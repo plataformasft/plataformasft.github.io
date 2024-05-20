@@ -55,7 +55,7 @@ const users = [
     {email: "bboadam@vitapro.com.ec", password:"Boada2024", name: "Susana Boada"},
 
     //nuevos usuarios para agrupadores gerencia
-    {email: "vsandovala@vitapro.com.pe", password:"Lima2024", name: "Violeta Mercedes Sandoval Altamirano <VSandovalA@vitapro.com.pe"},
+    {email: "vsandovala@vitapro.com.pe", password:"Lima2024", name: "Violeta Mercedes Sandoval Altamirano"},
 
     // Listado de Rene para Asesores tecnicos de campo: acotado
     {email: "ajaraa@vitapro.com.ec", password:"Jara2024", name: "Adrian Jara"},
