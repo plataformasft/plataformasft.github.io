@@ -37,7 +37,6 @@ const users = [
     {email: "jcabreraca@vitapro.com.ec", password:"Cabrera2024", name: "Jessica Cabrera"},
     {email: "wvargasa@vitapro.com.pe", password:"Vargas2024", name: "Wagner Vargas"},
     {email: "mriveraca@vitapro.com.ec", password:"Rivera2024", name: "María Alejandra Rivera"},
-    {email: "bbowlert@vitapro.com.pe", password:"Bowler2024", name: "Brenda Bowler"},
     {email: "erone@vitapro.com.ec", password:"Ron2024", name: "Ernesto Ron"},
     {email: "jchavezgu@vitapro.com.ec", password:"Chavez2024", name: "Juan Carlos Chavez"},
     {email: "ypradov@vitapro.com.ec", password:"Prado2024", name: "Yamil Prado"},
