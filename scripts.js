@@ -212,8 +212,8 @@ function showDashboards() {
     { name: "Gestión AT", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=be09ab89-8aa9-4ac7-bc0b-bb6c25587d74&ctid=3b16616d-f174-497a-a1ae-900d85106996" },
     { name: "Nutrición", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=cc78899e-f3e0-476d-aa8d-dd915fbbfdd6&ctid=3b16616d-f174-497a-a1ae-900d85106996" } ,
     { name: "Finanzas", url: "https://app.powerbi.com/Redirect?action=OpenApp&appId=2e41b323-44b8-4a89-a5ed-621a108ffdb6&ctid=3b16616d-f174-497a-a1ae-900d85106996"},
-    { name: "Calidad ECU",url:"https://app.powerbi.com/Redirect?action=OpenReport&appId=22d5d007-8d57-4e1d-90a3-34c439e0aa0f&reportObjectId=a3609655-9872-4e1b-b446-472494045b29&ctid=3b16616d-f174-497a-a1ae-900d85106996&reportPage=ReportSection3712a3bd177a77351456&pbi_source=appShareLink&portalSessionId=c49942dd-fa6c-45b3-bc77-faf3b13c4947"}
-        
+    { name: "Calidad ECU",url:"https://app.powerbi.com/Redirect?action=OpenReport&appId=22d5d007-8d57-4e1d-90a3-34c439e0aa0f&reportObjectId=a3609655-9872-4e1b-b446-472494045b29&ctid=3b16616d-f174-497a-a1ae-900d85106996&reportPage=ReportSection3712a3bd177a77351456&pbi_source=appShareLink&portalSessionId=c49942dd-fa6c-45b3-bc77-faf3b13c4947"},
+     { name: "Innovación y Desarrollo de PF", url: "https://app.powerbi.com/Redirect?action=OpenReport&appId=0bb34f8b-bc3c-4a25-acee-8a6a435aea86&reportObjectId=95e9af04-dcad-4aa1-ba9c-f7d70204981b&ctid=3b16616d-f174-497a-a1ae-900d85106996&reportPage=ReportSectionc416a1f1bc5141d034d2&pbi_source=appShareLink&portalSessionId=6fff2227-71c7-4558-90a4-a0233023ed66"}   
         // Agrega más enlaces según sea necesario
     ];
 
