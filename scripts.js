@@ -141,7 +141,6 @@ function checkPassword() {
                             "wvargasa@vitapro.com.pe",
                             "kmendezs@vitapro.com.ec",
                             "mriveraca@vitapro.com.ec",
-                            "bbowlert@vitapro.com.pe",
                             "erone@vitapro.com.ec",
                             "jchavezgu@vitapro.com.ec",
                             "ypradov@vitapro.com.ec",
